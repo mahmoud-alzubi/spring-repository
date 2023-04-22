@@ -13,7 +13,7 @@ public class Main {
     }
 
     public void printVehicleBeanInfo() {
-        Vehicle vehicle = context.getBean("Audi", Vehicle.class);
+        Vehicle vehicle = context.getBean(Vehicle.class);
         System.out.println("Vehicle Name: " + vehicle.getName());
         System.out.println("Vehicle Color: " + vehicle.getColor());
     }

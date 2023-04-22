@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Primary;
 @Configuration
 public class ProjectConfig {
 
+    @Primary
     @Bean(name = "BMW")
     Vehicle vehicle1() {
         Vehicle vehicle = new Vehicle();
